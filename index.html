@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dropdown Button onClick</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+</head>
+<body>
+  
+<div class="dropdown">
+  <button class="shareBtn">Share:</button>
+  <ul class="">
+    <li><a href="#">On Facebook</a></li>
+    <li><a href="#">On Twitter</a></li>
+    <li><a href="#">On Instagram+</a></li>
+    <li><a href="#">On Google+</a></li>
+  </ul>
+</div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('button').click(function(){
+      $('ul').toggleClass('active');
+    })
+  })
+
+
+
+
+ 
+</script>
+</body>
+</html>
